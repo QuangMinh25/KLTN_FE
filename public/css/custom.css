@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide {
+    display: none !important;
+}
+
+ng\:form {
+    display: block;
+}
+
+.ng-animate-block-transitions {
+    transition: 0s all !important;
+    -webkit-transition: 0s all !important;
+}
+
+.ng-hide-add-active,
+.ng-hide-remove {
+    display: block !important;
+}
+
+@media (min-width: 1286px) {
+    .adv-left {
+        float: left;
+        display: block;
+        position: fixed;
+        top: 146px;
+        left: calc(50% - 629px);
+        left: -webkit-calccalc(50% - 629px);
+        left: -moz-calc(50% - 629px);
+    }
+
+    .adv-right {
+        float: right;
+        display: block;
+        position: fixed;
+        top: 146px;
+        right: calc(50% - 629px);
+        right: -webkit-calccalc(50% - 629px);
+        right: -moz-calc(50% - 629px);
+    }
+}
+
+@media (max-width: 1286px) {
+    .adv-left {
+        display: none;
+    }
+
+    .adv-right {
+        display: none;
+    }
+}
+
+.navbar-toggle {
+    margin-right: 28px;
+}
+
+.navbar {
+    margin-bottom: 5px;
+    margin: -0.5px -15px;
+}
+
+.navbar-brand {
+    padding: 15px 30px;
+}
+
+.navbar-nav>li>a {
+    padding-left: 30px;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f1f1f1;
+    transition: 0.5s;
+}
+
+.navbar-default .navbar-nav>li:hover {
+    background-color: #1995dc;
+}
+
+.navbar-nav {
+    margin: 0.5px -15px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f1f1f1;
+}
+
+.cart-item {
+    position: absolute;
+    right: 13px;
+    top: 30px;
+    background: #f89406;
+    color: #ffffff;
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 16px;
+    font-size: 9px;
+    z-index: 1000;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.visible-xs {
+    display: block !important;
+}

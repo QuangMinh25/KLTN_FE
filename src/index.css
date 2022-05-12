@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.react-datepicker-popper {
+  z-index: 9!important;
+}
